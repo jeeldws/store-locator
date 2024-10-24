@@ -2,5 +2,6 @@
 
 ## Install this package
 ```sh
-yarn add github:jeeldws/store-locator```
+yarn add github:jeeldws/store-locator
+```
 
