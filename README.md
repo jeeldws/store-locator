@@ -2,6 +2,9 @@
 
 ## Install this package
 ```sh
-yarn add github:jeeldws/store-locator
+yarn add @dolphin/store-locator
 ```
-
+or
+```sh
+npm i @dolphin/store-locator
+```

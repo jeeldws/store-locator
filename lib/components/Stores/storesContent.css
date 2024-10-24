@@ -1,0 +1,20 @@
+.storeContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.leftSection {
+    width: 40%; /* Takes 40% of the container width */
+    padding: 10px;
+}
+
+.rightSection {
+    width: 60%; /* Takes 60% of the container width */
+    padding: 10px;
+    border-left: 1px solid #ccc; /* Optional: to separate the map visually */
+}
+
+.storeItem {
+    margin-bottom: 10px;
+}
