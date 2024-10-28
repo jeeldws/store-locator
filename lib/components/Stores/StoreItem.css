@@ -1,0 +1,41 @@
+.storeitem {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.storeitem:hover {
+    background-color: #f1f1f1;
+}
+
+.storeimage {
+    width: 160px; /* Consistent width for uniformity */
+    height: 160px; /* Consistent height for uniformity */
+    border-radius: 5%;
+    object-fit: cover; /* Ensures the image is not distorted */
+    margin-right: 15px;
+}
+
+.storedetails {
+    flex: 1;
+}
+
+.storedetails h2 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
+
+.storedetails p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0 0;
+}
+

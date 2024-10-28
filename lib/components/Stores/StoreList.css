@@ -1,0 +1,62 @@
+/* .storeList {
+    padding: 20px;
+    width: 30%;
+}
+
+.storeList ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.storeList li {
+    margin: 10px 0;
+} */
+
+.storeList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.storeList ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    gap: 8px;
+}
+
+.pagination button,
+.pagination span {
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #333;
+    background-color: #e6e6e6;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pagination button:hover,
+.pagination .active {
+    background-color: #0073e6;
+    color: #fff;
+}
+
+.pagination .disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.storelistcontainer {
+    height: 500px; /* Set a fixed height for the list */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding-right: 8px; /* Adds space to the right for better scroll visibility */
+}

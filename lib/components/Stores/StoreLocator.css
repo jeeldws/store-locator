@@ -1,0 +1,13 @@
+.storelocator {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 20px;
+    padding: 20px;
+}
+
+.rightsection {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+

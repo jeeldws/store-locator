@@ -1,5 +1,5 @@
-query stores($pageSize: Int!, $currentPage: Int!) {
-    stores(pageSize: $pageSize, currentPage: $currentPage) {
+query stores($pageSize: Int, $currentPage: Int,$filters: StoresFilterInput) {
+    stores(pageSize: $pageSize, currentPage: $currentPage, filters: $filters) {
         total_count
         total_pages
         items {
