@@ -1,0 +1,25 @@
+query stores($pageSize: Int, $currentPage: Int,$filters: StoresFilterInput,$all: Boolean) {
+    stores(pageSize: $pageSize, currentPage: $currentPage, filter: $filters,all:$all) {
+        total_count
+        total_pages
+        items {
+            store_id
+            name 
+            address
+            latitude
+            longitude
+            status
+            store_image
+            discription
+            position
+            store_email
+            store_phone
+            country_id
+            state_id
+            region
+            city_id
+            zip
+            thumb_image
+        }
+    }
+}

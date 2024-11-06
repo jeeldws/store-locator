@@ -1,0 +1,100 @@
+.storelocator {
+    border: 1px solid #ddd; /* Border for the filter container */
+    border-radius: 5px;
+}
+
+.accordionHeader {
+    border-radius: 0.5rem;
+    color: #000000; /* White */
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex; /* Use flexbox to align items */
+    justify-content: space-between; /* Space between title and arrow */
+    align-items: center; /* Center items vertically */
+    transition: background-color 0.3s ease;
+}
+
+.accordionArrow {
+    width: 10px;
+    height: 10px;
+    border: solid #000000; /* White Arrow */
+    border-width: 0 2px 2px 0; /* Arrow shape */
+    display: inline-block;
+    padding: 3px;
+    transition: transform 0.3s ease; /* Animation for arrow rotation */
+    transform: rotate(135deg); /* Default arrow direction */
+}
+
+.accordionArrow.open {
+    transform: rotate(45deg); /* Arrow direction when open */
+}
+
+.filterForm {
+    padding: 15px;
+    border-top: 1px solid #ddd; /* Line separating header and form */
+    background-color: #f5f5f5; /* Very Light Gray for the form background */
+    animation: fadeIn 0.3s ease; /* Animation for opening */
+}
+
+.filterForm input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc; /* Light Gray for input border */
+    border-radius: 4px; /* Input rounding */
+}
+
+.filterForm button {
+    background-color: #586777; /* Blue for button */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px; /* Button rounding */
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.filterForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Space between the buttons */
+    margin-top: 10px;
+}
+
+.filterButton,
+.resetButton {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.filterButton {
+    background-color: #4CAF50; /* Green color for filter */
+    color: white;
+}
+
+.resetButton {
+    background-color: #f44336; /* Red color for reset */
+    color: white;
+}

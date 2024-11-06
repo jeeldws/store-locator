@@ -1,0 +1,23 @@
+{
+    "name": "@dolphin/store-locator",
+    "version": "1.0.0",
+    "description": "Implements Store Locator functionality on Magento 2 PWA Studio",
+    "author": "Dolphin Web Solutions <support@dolphinwebsolutions.com>",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jeeldws/store-locator"
+    },
+    "pwa-studio": {
+      "targets": {
+        "intercept": "intercept.js"
+      }
+    },
+    "peerDependencies": {
+      "@magento/pwa-buildpack": "*",
+      "@magento/venia-ui": "*"
+    },
+    "bugs": {
+      "url": "https://github.com/jeeldws/store-locator/issues"
+    },
+    "homepage": "https://github.com/jeeldws/store-locator"
+  }
